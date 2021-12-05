@@ -3,16 +3,24 @@
     padding: 0;
     margin: 0;
 }
-
+/*root for all the colors in the css doc, allows for faster change*/
+:root{
+    --limeGreen:#d9dcd6;
+    --red:#ffffff;
+    --lightBlue: #2a607c;
+    --babyBlue: #2589bd;
+    --cyan:#0072bb;
+   
+}
 body {
-    background-color: #d9dcd6;
+    background-color: var(--limeGreen);
 }
 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    background-color:var(--lightBlue);
+    color: var(--red);
 }
 
 .header h1 {
@@ -21,7 +29,7 @@ body {
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color:var(--limeGreen);
 }
 
 .header div {
@@ -42,7 +50,7 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color: var(--red);
     text-decoration: none;
 }
 
@@ -83,22 +91,22 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: var(--babyBlue);
 }
 
 .benefit-lead {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--red);
 }
 
 .benefit-brand {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--red);
 }
 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--red);
 }
 
 .benefit-lead h3 {
@@ -139,8 +147,8 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: var(--cyan);
+    color:var(--red);
 }
 
 .online-reputation-management {
@@ -148,8 +156,8 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: var(--cyan);
+    color: var(--red);
 }
 
 .social-media-marketing {
@@ -157,8 +165,8 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: var(--cyan);
+    color: var(--red);
 }
 
 .search-engine-optimization img {
