@@ -92,10 +92,15 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: var(--babyBlue);
+    /*added this code to consolidate the code that created the color and spaces*/
+    color: var(--red);
+    margin-bottom: 32px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
+/*.benefit-lead {
+   margin-bottom: 32px;
     color: var(--red);
 }
 
@@ -106,7 +111,7 @@ p {
 
 .benefit-cost {
     margin-bottom: 32px;
-    color: var(--red);
+    color: var(--red);*/
 }
 
 .benefit-lead h3 {
